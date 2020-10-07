@@ -1,5 +1,5 @@
 {% set name = "pycomlink" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/pycomlink/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 15b8b5dc4d5ad9e44e06baf58afbde00aa1432ae4fa697b3907df9cdce94a3da
+  sha256: d4128f0ef6acc74cde0e065279a17ba9dffc544f7b7b354a27942b61e6e3946c
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -43,7 +43,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Tools for processing microwave link attenuation data for rainfall estimation'
+  summary: Tools for processing microwave link attenuation data for rainfall estimation
 
 extra:
   recipe-maintainers:
