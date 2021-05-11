@@ -25,14 +25,15 @@ requirements:
     - pandas >=0.22
     - matplotlib-base
     - numba
-    - folium
     - h5py
     - xarray
+    - netcdf4
     - shapely
     - pyproj
     - tqdm
     - pykrige
     - future
+    - tensorflow
 
 test:
   imports:
