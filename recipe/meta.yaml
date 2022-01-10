@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pycomlink/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 83cb0c6202aa363ea3c2991572a1a797ed2f01c3d04f83dc34de14346b48ab3d
+  sha256: c83cfd5d166c4e647b086a426bed6ca1c60acc9062ee218a8d408fcc7e365b9a
 
 build:
   noarch: python
