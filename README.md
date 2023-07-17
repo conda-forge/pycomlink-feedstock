@@ -1,11 +1,11 @@
-About pycomlink
-===============
+About pycomlink-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycomlink-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/pycomlink/pycomlink
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycomlink-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for processing microwave link attenuation data for rainfall estimation
 
