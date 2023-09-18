@@ -1,5 +1,5 @@
 {% set name = "pycomlink" %}
-{% set version = "0.3.7" %}
+{% set version = "0.3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pycomlink/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 93a76d2387a5468c31605763cfce4394d035edd3e0772d89caf800d30b7c3c88
+  sha256: 603906c73b99c47e08f1cacac6a2ec9525b8c2793c2418c2b61dd86491fd67cf
 
 build:
   noarch: python
