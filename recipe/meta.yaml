@@ -34,8 +34,9 @@ requirements:
     - tqdm
     - pykrige
     - future
-    - tensorflow
+    - scikit-learn
     - bottleneck
+    - poligrain
 
 test:
   imports:
